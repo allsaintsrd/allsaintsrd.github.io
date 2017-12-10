@@ -15,11 +15,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <style>
+    ul {margin-left: -20px;}
+  </style>
 </head>
 
 <body>
@@ -47,7 +51,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Quick Links</h4>
           <ul>
             <li><a href="https://inbox.google.com/?pli=1">Inbox</a></li>
@@ -61,44 +65,59 @@
             <li><a href="https://service.thecloud.net/service-platform/login/">The Cloud WiFi</a></li>
             <li><a href="https://childcare.mysodexo.co.uk/login/parent">Child Care Vouchers</a></li>
             <li><a href="http://192.168.222.254">Airstream</a></li>
+            <li><a href="https://www.evernote.com/Login.action?targetUrl=%2FHome.action">Evernote</a></li>
+            <li><a href="https://www.icloud.com">iCloud</a></li>
             <li><a href=""></a></li>
             <li><a href=""></a></li>
           </ul>
         </div>
-        <div class="col-md-3">
-          <h4>Applications</h5>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>WCC</h5>
           <ul>
-          	<li><a href="https://www.evernote.com/Login.action?targetUrl=%2FHome.action">Evernote</a></li>
-            <li><a href="https://www.icloud.com">iCloud</a></li>
-            <ul>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-            </ul>
-            <li><a href=""></a></li>
+            <li><a href="https://apps-internal.warwickshire.gov.uk/AppRegister">Apps Register</a> [ <a href="https://uat-internal.warwickshire.gov.uk/AppRegister">UAT</a> ]</li>
+            <li><a href="https://ict-creds.warwickshire.gov.uk/login.aspx">Secret Server</a></li>
+            <li><a href="http://wvphbl1/sw/selfservice/">Service Desk</a> [ <a href="http://edrm/ICTLD/Corporate/QRG/VPNToken_Setup.pdf">VPN Setup</a></li>
+            <li><a href="https://ict-wiki.warwickshire.gov.uk/wiki/bin/view/MidRange/ApplicationList">Application Wiki</a></li>
+            <li><a href="https://console.aws.amazon.com/billing/home?region=eu-west-1#/costexplorer">AWS</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="https://redmine.warwickshire.gov.uk/projects">Redmine</a> [ <a href="https://uat-internal.warwickshire.gov.uk/Redmine/">UAT</a> ]</li>
+            <li><a href="http://i.warwickshire.gov.uk/">Intranet</a> [ <a href="http://i.warwickshire.gov.uk/">DEV</a> | <a href="http://i.warwickshire.gov.uk/">UAT</a> ]</li>
+            <li><a href="https://ce0242li.webitrent.com/ce0242li_web/wrd/run/etadm001gf.open">iTrent Live</a> [ <a href="https://ce0242li.webitrent.com/ce0242li_ess/ess/index.html#/login">ESS SSO</a> | <a href="https://ce0242li.webitrent.com/ce0242li_web/itrent_wrd/run/etadm001gf.main">Core SSO</a> ]</li>
+            <li><a href="https://ce0242te.webitrent.com/ce0242te_web/wrd/run/etadm001gf.open">iTrent Test</a> [ <a href="https://ce0242te.webitrent.com/ce0242te_ess/ess/index.html#/login">ESS SSO</a> | <a href="https://ce0242te.webitrent.com/ce0242te_web/itrent_wrd/run/etadm001gf.main">Core SSO</a> ]</li>
+            <li><a href="https://ce0242de.webitrent.com/ce0242de_web/wrd/run/etadm001gf.open">iTrent Dev</a> [ <a href="https://ce0242de.webitrent.com/ce0242de_ess/ess/index.html#/login">ESS SSO</a> | <a href="https://ce0242de.webitrent.com/ce0242de_web/itrent_wrd/run/etadm001gf.main">Core SSO</a> ]</li>
+            <li><a href="https://apps.warwickshire.gov.uk/Annex/people">Annex</a> [ <a href="https://uat.warwickshire.gov.uk/Annex/people">UAT</a> ]</li>
+            <li><a href="">Redmine</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
           </ul>
-       </div>
-        <div class="col-md-3">
-          <h4>WCC</h4>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Ruby Apps</h4>
           <ul>
-          	<li><a href="http://i.warwickshire.gov.uk/">Intranet</a></li>
-              <ul>
-                <li><a href="http://i.warwickshire.gov.uk/">Development</a></li>
-                <li><a href="http://i.warwickshire.gov.uk/">UAT</a></li>
-              </ul>
-              <li><a href="http://i.warwickshire.gov.uk/">iTrent</a></li>
+          	
+            <li><a href="">AnteChamber</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">WesAdmin</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">WES</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">Firecrest</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">WES Payroll Direct</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">Payments Direct</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
           	<li><a href=""></a></li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Links</h4>
           <ul>
             <li></li>
           </ul>
+        </div>
       </div>
 
       <hr>
 
-      <footer>
+      <footer style="text-align: center;"> 
         <p>&copy; 2017 Graceful Designs</p>
       </footer>
     </div> <!-- /container -->
