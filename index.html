@@ -14,6 +14,8 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -22,7 +24,8 @@
   <![endif]-->
 
   <style>
-    ul {margin-left: -20px;}
+    html, body  { font-family: 'Ubuntu Condensed', sans-serif; font-size: 1.1em; }
+    ul          { margin-left: -20px; }
   </style>
 </head>
 
@@ -37,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Web Links</a>
+          <a class="navbar-brand" href="#" style="font-size: 1.5em;">Web Links</a>
         </div>
       </div>
     </nav>
@@ -52,7 +55,7 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Quick Links</h4>
+          <h3><span class="glyphicon glyphicon-th-large"></span> Quick Links</h3>
           <ul>
             <li><a href="https://inbox.google.com/?pli=1">Inbox</a></li>
           	<li><a href="http://192.168.0.10:5000">DSM</a></li>
@@ -60,42 +63,45 @@
             <li><a href="https://rs.hpkg.tv">RS Scheduler</a></li>
             <li><a href="http://192.168.0.14">Humax</a></li>
             <li><a href="http://192.168.0.1">Virgin Router</a></li>
-            <li><a href="http://192.168.0.10/wol.html">Wake Machines</a></li>
-            <li><a href="https://stmichaelsbudbrooke.churchsuite.co.uk/my">Churchsuite</a></li>
-            <li><a href="https://service.thecloud.net/service-platform/login/">The Cloud WiFi</a></li>
-            <li><a href="https://childcare.mysodexo.co.uk/login/parent">Child Care Vouchers</a></li>
-            <li><a href="http://192.168.222.254">Airstream</a></li>
-            <li><a href="https://www.evernote.com/Login.action?targetUrl=%2FHome.action">Evernote</a></li>
+            <li><a href="http://192.168.0.10/wol.html">Wake Machines</a></li>            
+            <li><a href="https://service.thecloud.net/service-platform/login/">The Cloud WiFi</a></li>          
+            <li><a href="http://192.168.222.254">Airstream</a></li>          
             <li><a href="https://www.icloud.com">iCloud</a></li>
+            <li><a href="https://childcare.mysodexo.co.uk/login/parent">Child Care Vouchers</a></li>
+            <li><a href="https://www.parentpay.com/">Parent Pay (Myton)</a></li>
+            <li><a href="http://www.schoolmoney.co.uk/public/school_money/index.html.nc">School Money (Ben)</a></li>
+            <li><a href="http://beta.speedtest.net">Speedtest (Beta)</a></li>
             <li><a href=""></a></li>
             <li><a href=""></a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>WCC</h5>
+          <h3><span class="glyphicon glyphicon-user"></span> WCC</h3>
           <ul>
-            <li><a href="https://apps-internal.warwickshire.gov.uk/AppRegister">Apps Register</a> [ <a href="https://uat-internal.warwickshire.gov.uk/AppRegister">UAT</a> ]</li>
-            <li><a href="https://ict-creds.warwickshire.gov.uk/login.aspx">Secret Server</a></li>
-            <li><a href="http://wvphbl1/sw/selfservice/">Service Desk</a> [ <a href="http://edrm/ICTLD/Corporate/QRG/VPNToken_Setup.pdf">VPN Setup</a></li>
-            <li><a href="https://ict-wiki.warwickshire.gov.uk/wiki/bin/view/MidRange/ApplicationList">Application Wiki</a></li>
-            <li><a href="https://console.aws.amazon.com/billing/home?region=eu-west-1#/costexplorer">AWS</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
-            <li><a href="https://redmine.warwickshire.gov.uk/projects">Redmine</a> [ <a href="https://uat-internal.warwickshire.gov.uk/Redmine/">UAT</a> ]</li>
             <li><a href="http://i.warwickshire.gov.uk/">Intranet</a> [ <a href="http://i.warwickshire.gov.uk/">DEV</a> | <a href="http://i.warwickshire.gov.uk/">UAT</a> ]</li>
+            <li><a href="http://wvphbl1/sw/selfservice/">Service Desk</a> [ <a href="http://edrm/ICTLD/Corporate/QRG/VPNToken_Setup.pdf">VPN Setup ]</a></li>
+            <li><a href="https://ict-wiki.warwickshire.gov.uk/wiki/bin/view/MidRange/ApplicationList">Application Wiki</a></li>
+            <li><a href="https://ict-creds.warwickshire.gov.uk/login.aspx">Secret Server</a></li> 
+            <li><a href="https://apps.warwickshire.gov.uk/Annex/people">Annex</a> [ <a href="https://uat.warwickshire.gov.uk/Annex/people">UAT</a> ]</li>                   
             <li><a href="https://ce0242li.webitrent.com/ce0242li_web/wrd/run/etadm001gf.open">iTrent Live</a> [ <a href="https://ce0242li.webitrent.com/ce0242li_ess/ess/index.html#/login">ESS SSO</a> | <a href="https://ce0242li.webitrent.com/ce0242li_web/itrent_wrd/run/etadm001gf.main">Core SSO</a> ]</li>
             <li><a href="https://ce0242te.webitrent.com/ce0242te_web/wrd/run/etadm001gf.open">iTrent Test</a> [ <a href="https://ce0242te.webitrent.com/ce0242te_ess/ess/index.html#/login">ESS SSO</a> | <a href="https://ce0242te.webitrent.com/ce0242te_web/itrent_wrd/run/etadm001gf.main">Core SSO</a> ]</li>
             <li><a href="https://ce0242de.webitrent.com/ce0242de_web/wrd/run/etadm001gf.open">iTrent Dev</a> [ <a href="https://ce0242de.webitrent.com/ce0242de_ess/ess/index.html#/login">ESS SSO</a> | <a href="https://ce0242de.webitrent.com/ce0242de_web/itrent_wrd/run/etadm001gf.main">Core SSO</a> ]</li>
-            <li><a href="https://apps.warwickshire.gov.uk/Annex/people">Annex</a> [ <a href="https://uat.warwickshire.gov.uk/Annex/people">UAT</a> ]</li>
-            <li><a href="">Redmine</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="https://redmine.warwickshire.gov.uk/projects">Redmine</a> [ <a href="https://uat-internal.warwickshire.gov.uk/Redmine/">UAT</a> ]</li>
+            <li><a href="https://apps-internal.warwickshire.gov.uk/AppRegister">Apps Register</a> [ <a href="https://uat-internal.warwickshire.gov.uk/AppRegister">UAT</a> ]</li>
+            <li><a href="https://console.aws.amazon.com/billing/home?region=eu-west-1#/costexplorer">AWS</a></li>
+            <li><a href="https://securityheaders.io/">Analyse HTTP Headers</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Ruby Apps</h4>
+          <h3><span class="glyphicon glyphicon-registration-mark"></span> Ruby Apps</h3>
           <ul>
-          	
-            <li><a href="">AnteChamber</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
-            <li><a href="">WesAdmin</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
-            <li><a href="">WES</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
-            <li><a href="">Firecrest</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
+            <li><a href="https://apps.warwickshire.gov.uk/antechamber">AnteChamber</a> [ <a href="https://uat.warwickshire.gov.uk/antechamber">UAT</a> ]</li>
+            <li><a href="https://apps-internal.warwickshire.gov.uk/antechamber">AnteChamber WG</a> [ <a href="https://uat-internal.warwickshire.gov.uk/antechamber">UAT WG</a> ]</li>
+            <li><a href="https://apps.warwickshire.gov.uk/wesadmin">WesAdmin</a> [ <a href="https://apps.warwickshire.gov.uk/wesadmin">UAT</a> ]</li>
+            <li><a href="https://apps.warwickshire.gov.uk/wes">WES</a> [ <a href="https://uat.warwickshire.gov.uk/wes">UAT</a> ]</li>
+            <li><a href="https://apps-internal.warwickshire.gov.uk/firecrest">Firecrest</a> [ <a href="https://beta-internal.warwickshire.gov.uk/firecrest">BETA</a> | <a href="https://uat-internal.warwickshire.gov.uk/firecrest">UAT</a> ]</li>
             <li><a href="">WES Payroll Direct</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
             <li><a href="">Payments Direct</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
             <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
@@ -105,12 +111,22 @@
             <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
             <li><a href="">iTrent</a> [ <a href="">DEV</a> | <a href="">UAT</a> ]</li>
           	<li><a href=""></a></li>
+            <li><a href=""></a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Links</h4>
+          <h3>Links</h3>
           <ul>
-            <li></li>
+            <li><a href="https://play.google.com/music/listen">Google Music</a></li>
+            <li><a href="https://www.evernote.com/Login.action?targetUrl=%2FHome.action">Evernote</a></li>
+            <li><a href="http://192.168.0.10/photo/#!Albums">Our Photos</a></li>          
+            <li><a href="https://mobile.virginmedia.com/ecare/login">Virgin Mobile</a></li>
+            <li><a href="https://www.three.co.uk/My3Account/Login">Three</a></li>
+            <li><a href="https://www.halifax-online.co.uk/personal/logon/login.jsp">Halifax</a></li>
+            <li><a href="https://www1.firstdirect.com/1/2/pib-service">First Direct</a></li>
+            <li><a href="https://onlinebanking.nationwide.co.uk/AccessManagement/Login">Nationwide</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
           </ul>
         </div>
       </div>
